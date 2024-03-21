@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-proxy = '127.0.0.1:7891'
+proxy = '127.0.0.1:7890'
 options = webdriver.ChromeOptions()
 options.add_argument('--proxy-server=socks5://' + proxy)
 browser = webdriver.Chrome(options=options)

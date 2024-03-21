@@ -1,6 +1,6 @@
 import requests
 
-proxy = '127.0.0.1:7891'
+proxy = '127.0.0.1:7890'
 proxies = {
     'http': 'socks5://' + proxy,
     'https': 'socks5://' + proxy

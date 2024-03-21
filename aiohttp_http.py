@@ -1,7 +1,9 @@
 import asyncio
 import aiohttp
 
+
 proxy = 'http://127.0.0.1:7890'
+
 
 async def main():
     async with aiohttp.ClientSession() as session:

@@ -2,8 +2,9 @@ import httpx
 import asyncio
 from httpx_socks import AsyncProxyTransport
 
+
 transport = AsyncProxyTransport.from_url(
-    'socks5://127.0.0.1:7891')
+    'socks5://127.0.0.1:7890')
 
 
 async def main():
